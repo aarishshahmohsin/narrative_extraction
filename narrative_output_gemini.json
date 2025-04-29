@@ -1,0 +1,722 @@
+[
+    {
+        "text": "Uefa has opened disciplinary proceedings against Barcelona, Juventus and Real Madrid over their involvement in the proposed European Super League.",
+        "entities": [
+            "Real Madrid",
+            "Uefa",
+            "Barcelona",
+            "European Super League",
+            "Juventus"
+        ],
+        "labeled_entities": [
+            {
+                "entity": "Real Madrid",
+                "label": "Antagonist"
+            },
+            {
+                "entity": "Uefa",
+                "label": "Protagonist"
+            },
+            {
+                "entity": "Barcelona",
+                "label": "Antagonist"
+            },
+            {
+                "entity": "European Super League",
+                "label": "Antagonist"
+            },
+            {
+                "entity": "Juventus",
+                "label": "Antagonist"
+            }
+        ],
+        "events": [
+            {
+                "subject": "Uefa",
+                "action": "has opened",
+                "object": "disciplinary proceedings",
+                "context": "against Barcelona, Juventus and Real Madrid over their involvement in the proposed European Super League",
+                "subject_role": "Protagonist",
+                "object_role": "Unknown"
+            }
+        ]
+    },
+    {
+        "text": "The increases are steeper than the 17 percent jump in the Prime membership price that came into effect for new",
+        "entities": [
+            "17 percent"
+        ],
+        "labeled_entities": [
+            {
+                "entity": "17 percent",
+                "label": "Neutral"
+            }
+        ],
+        "events": [
+            {
+                "subject": "increases",
+                "action": "are",
+                "object": "steeper",
+                "context": "than the 17 percent jump in the Prime membership price",
+                "subject_role": "Unknown",
+                "object_role": "Unknown"
+            },
+            {
+                "subject": "jump",
+                "action": "came",
+                "object": "into effect",
+                "context": "for new",
+                "subject_role": "Unknown",
+                "object_role": "Unknown"
+            }
+        ]
+    },
+    {
+        "text": "Nigeria's Senate on Tuesday passed the harmonised Clause 84 of the 2010 Electoral Act (Amendment) Bill 2022, which allows political",
+        "entities": [
+            "Clause 84 of the",
+            "Electoral Act",
+            "Nigeria",
+            "Bill 2022",
+            "2010",
+            "Tuesday",
+            "Senate"
+        ],
+        "labeled_entities": [
+            {
+                "entity": "Nigeria",
+                "label": "Neutral"
+            },
+            {
+                "entity": "Senate",
+                "label": "Protagonist"
+            },
+            {
+                "entity": "Clause 84 of the",
+                "label": "Neutral"
+            },
+            {
+                "entity": "Electoral Act",
+                "label": "Neutral"
+            },
+            {
+                "entity": "Bill 2022",
+                "label": "Neutral"
+            },
+            {
+                "entity": "2010",
+                "label": "Neutral"
+            },
+            {
+                "entity": "Tuesday",
+                "label": "Neutral"
+            }
+        ],
+        "events": [
+            {
+                "subject": "Nigeria's Senate",
+                "action": "passed",
+                "object": "the harmonised Clause 84 of the 2010 Electoral Act (Amendment) Bill 2022",
+                "context": "on Tuesday",
+                "subject_role": "Unknown",
+                "object_role": "Unknown"
+            }
+        ]
+    },
+    {
+        "text": "The Lagos State Governor, Mr. Babajide Sanwo-Olu, has tested positive for Covid-19, Commissioner for Health, Professor Akin Abayomi, has said.",
+        "entities": [
+            "Akin Abayomi",
+            "Babajide Sanwo-Olu",
+            "The Lagos State Governor"
+        ],
+        "labeled_entities": [
+            {
+                "entity": "Akin Abayomi",
+                "label": "Neutral"
+            },
+            {
+                "entity": "Babajide Sanwo-Olu",
+                "label": "Neutral"
+            },
+            {
+                "entity": "The Lagos State Governor",
+                "label": "Neutral"
+            }
+        ],
+        "events": [
+            {
+                "subject": "Mr. Babajide Sanwo-Olu",
+                "action": "tested",
+                "object": "positive for Covid-19",
+                "context": "Lagos State Governor",
+                "subject_role": "Unknown",
+                "object_role": "Unknown"
+            },
+            {
+                "subject": "Commissioner for Health, Professor Akin Abayomi",
+                "action": "said",
+                "object": "that The Lagos State Governor, Mr. Babajide Sanwo-Olu, has tested positive for Covid-19",
+                "subject_role": "Unknown",
+                "object_role": "Unknown"
+            }
+        ]
+    },
+    {
+        "text": "South Africa has raised concerns about the deteriorating situation in the Kingdom of Eswatini with demonstrators in a sixth-day protest",
+        "entities": [
+            "sixth-day",
+            "the Kingdom of Eswatini",
+            "South Africa"
+        ],
+        "labeled_entities": [
+            {
+                "entity": "South Africa",
+                "label": "Protagonist"
+            },
+            {
+                "entity": "the Kingdom of Eswatini",
+                "label": "Antagonist"
+            },
+            {
+                "entity": "sixth-day",
+                "label": "Neutral"
+            }
+        ],
+        "events": [
+            {
+                "subject": "South Africa",
+                "action": "has raised",
+                "object": "concerns",
+                "context": "about the deteriorating situation in the Kingdom of Eswatini",
+                "subject_role": "Protagonist",
+                "object_role": "Unknown"
+            },
+            {
+                "subject": "demonstrators",
+                "action": "protest",
+                "object": "in a sixth-day protest",
+                "context": "in the Kingdom of Eswatini",
+                "subject_role": "Unknown",
+                "object_role": "Unknown"
+            }
+        ]
+    },
+    {
+        "text": "Pep Guardiola has said that he will leave Manchester City when his contract runs out in 2023 - and hopes",
+        "entities": [
+            "Manchester City",
+            "2023"
+        ],
+        "labeled_entities": [
+            {
+                "entity": "Manchester City",
+                "label": "Neutral"
+            },
+            {
+                "entity": "2023",
+                "label": "Neutral"
+            }
+        ],
+        "events": [
+            {
+                "subject": "Pep Guardiola",
+                "action": "said",
+                "object": "that he will leave Manchester City when his contract runs out in 2023",
+                "context": null,
+                "subject_role": "Unknown",
+                "object_role": "Unknown"
+            }
+        ]
+    },
+    {
+        "text": "The Sultan of Sokoto and President-General of the Nigeria Supreme Council for Islamic Affairs, Alhaji Sa’ad Abubakar, has called for",
+        "entities": [
+            "Alhaji Sa’ad Abubakar",
+            "the Nigeria Supreme Council for Islamic Affairs",
+            "Sokoto"
+        ],
+        "labeled_entities": [
+            {
+                "entity": "Alhaji Sa’ad Abubakar",
+                "label": "Protagonist"
+            },
+            {
+                "entity": "the Nigeria Supreme Council for Islamic Affairs",
+                "label": "Neutral"
+            },
+            {
+                "entity": "Sokoto",
+                "label": "Neutral"
+            }
+        ],
+        "events": [
+            {
+                "subject": "Alhaji Sa’ad Abubakar",
+                "action": "has called",
+                "object": "for",
+                "context": "The Sultan of Sokoto and President-General of the Nigeria Supreme Council for Islamic Affairs",
+                "subject_role": "Protagonist",
+                "object_role": "Unknown"
+            }
+        ]
+    },
+    {
+        "text": "Nigerian Senators have commenced legislative activities for the year by asking the country's President, Muhammadu Buhari to direct the National Security Adviser, the",
+        "entities": [
+            "Nigerian",
+            "Muhammadu Buhari",
+            "the year",
+            "the National Security Adviser"
+        ],
+        "labeled_entities": [
+            {
+                "entity": "Nigerian",
+                "label": "Neutral"
+            },
+            {
+                "entity": "Muhammadu Buhari",
+                "label": "Protagonist"
+            },
+            {
+                "entity": "the year",
+                "label": "Neutral"
+            },
+            {
+                "entity": "the National Security Adviser",
+                "label": "Neutral"
+            }
+        ],
+        "events": [
+            {
+                "subject": "Nigerian Senators",
+                "action": "commenced",
+                "object": "legislative activities",
+                "context": "for the year",
+                "subject_role": "Unknown",
+                "object_role": "Unknown"
+            },
+            {
+                "subject": "Nigerian Senators",
+                "action": "asking",
+                "object": "the country's President, Muhammadu Buhari",
+                "context": "by asking",
+                "subject_role": "Unknown",
+                "object_role": "Unknown"
+            },
+            {
+                "subject": "Muhammadu Buhari",
+                "action": "direct",
+                "object": "the National Security Adviser",
+                "context": "to direct",
+                "subject_role": "Protagonist",
+                "object_role": "Neutral"
+            }
+        ]
+    },
+    {
+        "text": "Former Senate President and presidential hopeful on the platform of the Peoples Democratic Party (PDP), Senator Anyim Pius Anyim, has",
+        "entities": [
+            "PDP",
+            "Anyim Pius",
+            "the Peoples Democratic Party",
+            "Senate"
+        ],
+        "labeled_entities": [
+            {
+                "entity": "Anyim Pius",
+                "label": "Protagonist"
+            },
+            {
+                "entity": "PDP",
+                "label": "Neutral"
+            },
+            {
+                "entity": "the Peoples Democratic Party",
+                "label": "Neutral"
+            },
+            {
+                "entity": "Senate",
+                "label": "Neutral"
+            }
+        ],
+        "events": []
+    },
+    {
+        "text": "Premier League clubs have \"unanimously agreed\" that 'Project Big Picture' will not be endorsed or pursued. The controversial plans, proposed",
+        "entities": [
+            "Premier League",
+            "Project Big Picture'"
+        ],
+        "labeled_entities": [
+            {
+                "entity": "Premier League",
+                "label": "Protagonist"
+            },
+            {
+                "entity": "Project Big Picture'",
+                "label": "Antagonist"
+            }
+        ],
+        "events": [
+            {
+                "subject": "Premier League clubs",
+                "action": "agreed",
+                "object": "that 'Project Big Picture' will not be endorsed or pursued",
+                "context": "unanimously",
+                "subject_role": "Unknown",
+                "object_role": "Unknown"
+            }
+        ]
+    },
+    {
+        "text": "President Muhammadu Buhari, on Tuesday, assured the Nigerian people that with advancement in technology by the Independent National Electoral Commission",
+        "entities": [
+            "Nigerian",
+            "Muhammadu Buhari",
+            "Tuesday",
+            "the Independent National Electoral Commission"
+        ],
+        "labeled_entities": [
+            {
+                "entity": "Muhammadu Buhari",
+                "label": "Protagonist"
+            },
+            {
+                "entity": "the Independent National Electoral Commission",
+                "label": "Neutral"
+            },
+            {
+                "entity": "Nigerian",
+                "label": "Protagonist"
+            },
+            {
+                "entity": "Tuesday",
+                "label": "Neutral"
+            }
+        ],
+        "events": [
+            {
+                "subject": "President Muhammadu Buhari",
+                "action": "assured",
+                "object": "the Nigerian people",
+                "context": "on Tuesday",
+                "subject_role": "Unknown",
+                "object_role": "Unknown"
+            }
+        ]
+    },
+    {
+        "text": "Manchester United have modified Old Trafford to accommodate 23,500 socially distanced spectators, and insists they are \"bemused\" by the ongoing",
+        "entities": [
+            "Old Trafford",
+            "Manchester United",
+            "23,500"
+        ],
+        "labeled_entities": [
+            {
+                "entity": "Manchester United",
+                "label": "Protagonist"
+            },
+            {
+                "entity": "Old Trafford",
+                "label": "Neutral"
+            },
+            {
+                "entity": "23,500",
+                "label": "Neutral"
+            }
+        ],
+        "events": [
+            {
+                "subject": "Manchester United",
+                "action": "have modified",
+                "object": "Old Trafford",
+                "context": "to accommodate 23,500 socially distanced spectators",
+                "subject_role": "Protagonist",
+                "object_role": "Neutral"
+            },
+            {
+                "subject": "they",
+                "action": "are bemused",
+                "object": null,
+                "context": "by the ongoing",
+                "subject_role": "Unknown",
+                "object_role": "Unknown"
+            }
+        ]
+    },
+    {
+        "text": "The Governor of the Central Bank of Nigeria (CBN), Mr. Godwin Emefiele, on Thursday announced a new programme to stimulate",
+        "entities": [
+            "Thursday",
+            "the Central Bank of Nigeria",
+            "Godwin Emefiele"
+        ],
+        "labeled_entities": [
+            {
+                "entity": "the Central Bank of Nigeria",
+                "label": "Protagonist"
+            },
+            {
+                "entity": "Godwin Emefiele",
+                "label": "Protagonist"
+            },
+            {
+                "entity": "Thursday",
+                "label": "Neutral"
+            }
+        ],
+        "events": [
+            {
+                "subject": "Mr. Godwin Emefiele",
+                "action": "announced",
+                "object": "a new programme",
+                "context": "on Thursday to stimulate",
+                "subject_role": "Unknown",
+                "object_role": "Unknown"
+            }
+        ]
+    },
+    {
+        "text": "Brentford got the better of Arsenal in the first match of the 2021-22 Premier League season at the Community Stadium",
+        "entities": [
+            "Brentford",
+            "Arsenal",
+            "first",
+            "the Community Stadium",
+            "2021-22"
+        ],
+        "labeled_entities": [
+            {
+                "entity": "Brentford",
+                "label": "Protagonist"
+            },
+            {
+                "entity": "Arsenal",
+                "label": "Antagonist"
+            },
+            {
+                "entity": "first",
+                "label": "Neutral"
+            },
+            {
+                "entity": "the Community Stadium",
+                "label": "Neutral"
+            },
+            {
+                "entity": "2021-22",
+                "label": "Neutral"
+            }
+        ],
+        "events": [
+            {
+                "subject": "Brentford",
+                "action": "got",
+                "object": "the better",
+                "context": "in the first match of the 2021-22 Premier League season at the Community Stadium",
+                "subject_role": "Protagonist",
+                "object_role": "Unknown"
+            }
+        ]
+    },
+    {
+        "text": "Russian president on Thursday signed a law demanding large social media companies that operate in the country to open offices",
+        "entities": [
+            "Thursday",
+            "Russian"
+        ],
+        "labeled_entities": [
+            {
+                "entity": "Russian",
+                "label": "Protagonist"
+            },
+            {
+                "entity": "Thursday",
+                "label": "Neutral"
+            }
+        ],
+        "events": [
+            {
+                "subject": "Russian president",
+                "action": "signed",
+                "object": "a law",
+                "context": "on Thursday",
+                "subject_role": "Unknown",
+                "object_role": "Unknown"
+            },
+            {
+                "subject": "law",
+                "action": "demanding",
+                "object": "large social media companies",
+                "context": "that operate in the country",
+                "subject_role": "Unknown",
+                "object_role": "Unknown"
+            },
+            {
+                "subject": "large social media companies",
+                "action": "open",
+                "object": "offices",
+                "context": "to operate in the country",
+                "subject_role": "Unknown",
+                "object_role": "Unknown"
+            }
+        ]
+    },
+    {
+        "text": "Nigeria's President Muhammadu Buhari has approved the restoration of the leases on four Oil Mining Licences to the state-owned petroleum",
+        "entities": [
+            "Muhammadu Buhari",
+            "Oil Mining Licences",
+            "Nigeria",
+            "four"
+        ],
+        "labeled_entities": [
+            {
+                "entity": "Muhammadu Buhari",
+                "label": "Protagonist"
+            },
+            {
+                "entity": "Oil Mining Licences",
+                "label": "Neutral"
+            },
+            {
+                "entity": "Nigeria",
+                "label": "Neutral"
+            },
+            {
+                "entity": "four",
+                "label": "Neutral"
+            }
+        ],
+        "events": [
+            {
+                "subject": "President Muhammadu Buhari",
+                "action": "approved",
+                "object": "the restoration of the leases on four Oil Mining Licences",
+                "context": "to the state-owned petroleum",
+                "subject_role": "Unknown",
+                "object_role": "Unknown"
+            }
+        ]
+    },
+    {
+        "text": "Chief Executive of the Nigerian Upstream Petroleum Regulatory Commission (NUPRC), Mr Gbenga Komolafe, on Sunday said that with the surging",
+        "entities": [
+            "the Nigerian Upstream Petroleum Regulatory Commission",
+            "Gbenga Komolafe",
+            "Sunday",
+            "NUPRC"
+        ],
+        "labeled_entities": [
+            {
+                "entity": "the Nigerian Upstream Petroleum Regulatory Commission",
+                "label": "Neutral"
+            },
+            {
+                "entity": "Gbenga Komolafe",
+                "label": "Neutral"
+            },
+            {
+                "entity": "Sunday",
+                "label": "Neutral"
+            },
+            {
+                "entity": "NUPRC",
+                "label": "Neutral"
+            }
+        ],
+        "events": []
+    },
+    {
+        "text": "In complying with the directives of the tax appeal tribunal (TAT), Multichoice Nigeria Limited has deposited an amount required by",
+        "entities": [
+            "Multichoice Nigeria Limited"
+        ],
+        "labeled_entities": [
+            {
+                "entity": "Multichoice Nigeria Limited",
+                "label": "Neutral"
+            }
+        ],
+        "events": [
+            {
+                "subject": "Multichoice Nigeria Limited",
+                "action": "deposited",
+                "object": "an amount",
+                "context": "in complying with the directives of the tax appeal tribunal (TAT)",
+                "subject_role": "Neutral",
+                "object_role": "Unknown"
+            }
+        ]
+    },
+    {
+        "text": "The Nigerian Senate has fixed October 20 to commence debate on the Petroleum Industry Bill (PIB), a move the Senate",
+        "entities": [
+            "The Nigerian Senate",
+            "the Petroleum Industry Bill",
+            "October 20",
+            "Senate"
+        ],
+        "labeled_entities": [
+            {
+                "entity": "The Nigerian Senate",
+                "label": "Protagonist"
+            },
+            {
+                "entity": "the Petroleum Industry Bill",
+                "label": "Neutral"
+            },
+            {
+                "entity": "October 20",
+                "label": "Neutral"
+            },
+            {
+                "entity": "Senate",
+                "label": "Protagonist"
+            }
+        ],
+        "events": [
+            {
+                "subject": "The Nigerian Senate",
+                "action": "has fixed",
+                "object": "October 20",
+                "context": "to commence debate on the Petroleum Industry Bill (PIB)",
+                "subject_role": "Protagonist",
+                "object_role": "Neutral"
+            }
+        ]
+    },
+    {
+        "text": "Nigeria's federal government on Thursday said despite significant progress made in the fight against tuberculosis (TB) epidemic in the country,",
+        "entities": [
+            "Thursday",
+            "TB",
+            "Nigeria"
+        ],
+        "labeled_entities": [
+            {
+                "entity": "Nigeria",
+                "label": "Protagonist"
+            },
+            {
+                "entity": "TB",
+                "label": "Antagonist"
+            },
+            {
+                "entity": "Thursday",
+                "label": "Neutral"
+            }
+        ],
+        "events": [
+            {
+                "subject": "Nigeria's federal government",
+                "action": "said",
+                "object": "progress",
+                "context": "on Thursday, despite significant progress made in the fight against tuberculosis (TB) epidemic in the country",
+                "subject_role": "Unknown",
+                "object_role": "Unknown"
+            }
+        ]
+    }
+]

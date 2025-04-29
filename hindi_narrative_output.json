@@ -1,0 +1,618 @@
+[
+    {
+        "text": "कांग्रेस नेता बलजिंदर सिंह की सोमवार को पंजाब के मोगा में उनके घर में गोली मारकर हत्या कर दी गई। ऑनलाइन सामने आए सीसीटीवी फुटेज में बलजिंदर को गोलियां मारता हुआ एक हमलावर दिख रहा है। पुलिस ने बताया, \"बलजिंदर को एक गोली सीने में लगी और आशंका है कि दूसरा हमलावर घर के बाहर बाइक पर सवार था।\"",
+        "entities": [
+            {
+                "text": "कांग्रेस",
+                "label": "ORG",
+                "start": 0,
+                "end": 0
+            },
+            {
+                "text": "बलजिंदर सिंह",
+                "label": "PER",
+                "start": 2,
+                "end": 3
+            },
+            {
+                "text": "पंजाब",
+                "label": "LOC",
+                "start": 7,
+                "end": 7
+            },
+            {
+                "text": "मोगा",
+                "label": "LOC",
+                "start": 9,
+                "end": 9
+            }
+        ],
+        "labeled_entities": [
+            {
+                "entity": "बलजिंदर सिंह",
+                "label": "Protagonist"
+            },
+            {
+                "entity": "कांग्रेस",
+                "label": "Neutral"
+            },
+            {
+                "entity": "पंजाब",
+                "label": "Neutral"
+            },
+            {
+                "entity": "मोगा",
+                "label": "Neutral"
+            }
+        ],
+        "events": [
+            {
+                "subject": "बलजिंदर सिंह",
+                "action": "की हत्या कर दी गई",
+                "object": "बलजिंदर सिंह",
+                "context": "सोमवार को पंजाब के मोगा में उनके घर में गोली मारकर",
+                "subject_role": "Protagonist",
+                "object_role": "Protagonist"
+            },
+            {
+                "subject": "हमलावर",
+                "action": "गोलियां मारता हुआ दिख रहा है",
+                "object": "बलजिंदर सिंह",
+                "context": "ऑनलाइन सामने आए सीसीटीवी फुटेज में",
+                "subject_role": "Unknown",
+                "object_role": "Protagonist"
+            },
+            {
+                "subject": "पुलिस",
+                "action": "ने बताया",
+                "object": "बलजिंदर सिंह",
+                "context": "बलजिंदर को एक गोली सीने में लगी",
+                "subject_role": "Unknown",
+                "object_role": "Protagonist"
+            }
+        ]
+    },
+    {
+        "text": "केंद्रीय मंत्री प्रह्लाद पटेल ने लोकसभा और विधानसभाओं में महिला आरक्षण को लेकर 'X' पर पोस्ट किया कि यह मांग पूरी करने का नैतिक साहस प्रधानमंत्री नरेंद्र मोदी के नेतृत्व वाली सरकार में ही था। उन्होंने आगे कहा कि केंद्रीय कैबिनेट की मंज़ूरी से यह साबित हो गया है। हालांकि, कुछ देर बाद पटेल ने अपना पोस्ट डिलीट कर दिया।",
+        "entities": [
+            {
+                "text": "प्रह्लाद पटेल",
+                "label": "PER",
+                "start": 2,
+                "end": 3
+            },
+            {
+                "text": "के नेतृत्व",
+                "label": "PER",
+                "start": 28,
+                "end": 29
+            },
+            {
+                "text": "मंज़ूरी से",
+                "label": "ORG",
+                "start": 42,
+                "end": 43
+            },
+            {
+                "text": "कर",
+                "label": "PER",
+                "start": 58,
+                "end": 58
+            }
+        ],
+        "labeled_entities": [
+            {
+                "entity": "प्रह्लाद पटेल",
+                "label": "Protagonist"
+            },
+            {
+                "entity": "के नेतृत्व",
+                "label": "Protagonist"
+            },
+            {
+                "entity": "मंज़ूरी से",
+                "label": "Neutral"
+            },
+            {
+                "entity": "कर",
+                "label": "Neutral"
+            }
+        ],
+        "events": [
+            {
+                "subject": "प्रह्लाद पटेल",
+                "action": "पोस्ट किया",
+                "object": "आरक्षण को",
+                "context": "लोकसभा और विधानसभाओं में महिला आरक्षण को लेकर 'X' पर पोस्ट किया कि यह मांग पूरी करने का नैतिक साहस प्रधानमंत्री नरेंद्र मोदी के नेतृत्व वाली सरकार में ही था।",
+                "subject_role": "Protagonist",
+                "object_role": "Unknown"
+            },
+            {
+                "subject": "के नेतृत्व",
+                "action": "पूरा करने का नैतिक साहस",
+                "object": "आरक्षण को",
+                "context": "यह मांग पूरी करने का नैतिक साहस प्रधानमंत्री नरेंद्र मोदी के नेतृत्व वाली सरकार में ही था।",
+                "subject_role": "Protagonist",
+                "object_role": "Unknown"
+            },
+            {
+                "subject": "मंज़ूरी से",
+                "action": "साबित हो गया",
+                "object": "आरक्षण को",
+                "context": "केंद्रीय कैबिनेट की मंज़ूरी से यह साबित हो गया है",
+                "subject_role": "Neutral",
+                "object_role": "Unknown"
+            },
+            {
+                "subject": "प्रह्लाद पटेल",
+                "action": "डिलीट कर दिया",
+                "object": "पोस्ट",
+                "context": "हालांकि, कुछ देर बाद पटेल ने अपना पोस्ट डिलीट कर दिया",
+                "subject_role": "Protagonist",
+                "object_role": "Unknown"
+            }
+        ]
+    },
+    {
+        "text": "आरबीआई के 5 अधिकारियों ने एक लेख में लिखा है कि राज्यों द्वारा पुरानी पेंशन योजना (ओपीएस) लागू करना पीछे ले जाने वाला कदम है। अधिकारियों के मुताबिक, इससे राज्यों की वित्तीय स्थिति अस्थिर हो सकती है और वित्तीय बोझ 4.5 गुना तक बढ़ सकता है। हाल ही में राजस्थान और छत्तीसगढ़ समेत कई राज्यों ने ओपीएस लागू किया है।",
+        "entities": [
+            {
+                "text": "आरबीआई",
+                "label": "ORG",
+                "start": 0,
+                "end": 0
+            },
+            {
+                "text": "ओपीएस",
+                "label": "LOC",
+                "start": 56,
+                "end": 56
+            },
+            {
+                "text": "किया",
+                "label": "LOC",
+                "start": 58,
+                "end": 58
+            }
+        ],
+        "labeled_entities": [
+            {
+                "entity": "आरबीआई",
+                "label": "Protagonist"
+            },
+            {
+                "entity": "ओपीएस",
+                "label": "Antagonist"
+            }
+        ],
+        "events": [
+            {
+                "subject": "आरबीआई",
+                "action": "लिखा",
+                "object": "ओपीएस",
+                "context": "5 अधिकारियों ने एक लेख में",
+                "subject_role": "Protagonist",
+                "object_role": "Antagonist"
+            },
+            {
+                "subject": "राज्यों",
+                "action": "लागू",
+                "object": "ओपीएस",
+                "context": null,
+                "subject_role": "Unknown",
+                "object_role": "Antagonist"
+            }
+        ]
+    },
+    {
+        "text": "नामक्कल (तमिलनाडु) में शावरमा खाने से सोमवार को एक 14-वर्षीय छात्रा की मौत हो गई व 13 अन्य लोगों को फूड पॉइज़निंग हो गई। मृतका के परिजन एक रेस्टोरेंट से शावरमा लाए थे जिसे खाने के बाद पूरे परिवार ने पेट दर्द-उल्टी की शिकायत की थी। बकौल पुलिस, बीमार हुए छात्रों ने भी उसी रेस्टोरेंट से शावरमा खाया था।",
+        "entities": [
+            {
+                "text": "नामक्कल",
+                "label": "LOC",
+                "start": 0,
+                "end": 0
+            },
+            {
+                "text": "में",
+                "label": "LOC",
+                "start": 2,
+                "end": 2
+            },
+            {
+                "text": "से सोमवार",
+                "label": "PER",
+                "start": 5,
+                "end": 6
+            },
+            {
+                "text": "रेस्टोरेंट",
+                "label": "LOC",
+                "start": 54,
+                "end": 54
+            }
+        ],
+        "labeled_entities": [
+            {
+                "entity": "नामक्कल",
+                "label": "Neutral"
+            },
+            {
+                "entity": "से सोमवार",
+                "label": "Neutral"
+            },
+            {
+                "entity": "रेस्टोरेंट",
+                "label": "Antagonist"
+            }
+        ],
+        "events": [
+            {
+                "subject": "छात्रा",
+                "action": "मौत हो गई",
+                "object": "शावरमा",
+                "context": "खाने से",
+                "subject_role": "Unknown",
+                "object_role": "Unknown"
+            },
+            {
+                "subject": "लोग",
+                "action": "फूड पॉइज़निंग हो गई",
+                "object": "शावरमा",
+                "context": "खाने से",
+                "subject_role": "Unknown",
+                "object_role": "Unknown"
+            },
+            {
+                "subject": "परिजन",
+                "action": "पेट दर्द-उल्टी की शिकायत की थी",
+                "object": "शावरमा",
+                "context": "खाने के बाद",
+                "subject_role": "Unknown",
+                "object_role": "Unknown"
+            },
+            {
+                "subject": "छात्रों",
+                "action": "खाया था",
+                "object": "शावरमा",
+                "context": "बीमार हुए",
+                "subject_role": "Unknown",
+                "object_role": "Unknown"
+            }
+        ]
+    },
+    {
+        "text": "मणिपुर के मुख्यमंत्री एन बीरेन सिंह के आश्वासन के बाद अज्ञात हमलावरों द्वारा मारे गए सैनिक सेरतो थांगथांग कोम के परिजन उनका शव लेने के लिए तैयार हो गए हैं। एक आदिवासी संगठन ने बताया है कि मुख्यमंत्री ने आरोपियों के खिलाफ सख्त कार्रवाई का आश्वासन दिया है। इससे पहले सैनिक की पत्नी ने शव लेने से इनकार किया था।",
+        "entities": [
+            {
+                "text": "मणिपुर",
+                "label": "LOC",
+                "start": 0,
+                "end": 0
+            },
+            {
+                "text": "एन बीरेन सिंह",
+                "label": "PER",
+                "start": 3,
+                "end": 5
+            },
+            {
+                "text": "सेरतो थांगथांग कोम",
+                "label": "PER",
+                "start": 16,
+                "end": 18
+            }
+        ],
+        "labeled_entities": [
+            {
+                "entity": "एन बीरेन सिंह",
+                "label": "Protagonist"
+            },
+            {
+                "entity": "सेरतो थांगथांग कोम",
+                "label": "Neutral"
+            },
+            {
+                "entity": "मणिपुर",
+                "label": "Neutral"
+            }
+        ],
+        "events": [
+            {
+                "subject": "अज्ञात हमलावर",
+                "action": "मारना",
+                "object": "सेरतो थांगथांग कोम",
+                "context": "सैनिक",
+                "subject_role": "Unknown",
+                "object_role": "Neutral"
+            },
+            {
+                "subject": "एन बीरेन सिंह",
+                "action": "आश्वासन देना",
+                "object": "सेरतो थांगथांग कोम के परिजन",
+                "context": "शव लेने के लिए तैयार हो गए",
+                "subject_role": "Protagonist",
+                "object_role": "Neutral"
+            },
+            {
+                "subject": "एन बीरेन सिंह",
+                "action": "आश्वासन देना",
+                "object": "आरोपी",
+                "context": "सख्त कार्रवाई",
+                "subject_role": "Protagonist",
+                "object_role": "Unknown"
+            },
+            {
+                "subject": "सैनिक की पत्नी",
+                "action": "इनकार करना",
+                "object": "शव",
+                "context": "लेने से",
+                "subject_role": "Unknown",
+                "object_role": "Unknown"
+            }
+        ]
+    },
+    {
+        "text": "रिपोर्ट्स के अनुसार, केंद्रीय कैबिनेट ने सोमवार को संविधान (108वां संशोधन) विधेयक, 2008 को मंज़ूरी दे दी जिसमें लोकसभा और विधानसभाओं में महिलाओं को 33% आरक्षण देने का प्रावधान है। दरअसल, कांग्रेस सांसद मल्लिकार्जुन खरगे और जेडीयू सांसद रामनाथ ठाकुर सहित अन्य विपक्षी नेताओं ने सरकार से संसद के वर्तमान विशेष सत्र में यह बिल लाने की मांग की थी।",
+        "entities": [
+            {
+                "text": "कैबिनेट ने",
+                "label": "ORG",
+                "start": 4,
+                "end": 5
+            },
+            {
+                "text": "महिलाओं",
+                "label": "ORG",
+                "start": 22,
+                "end": 22
+            },
+            {
+                "text": "रामनाथ",
+                "label": "ORG",
+                "start": 38,
+                "end": 38
+            },
+            {
+                "text": "सहित अन्य",
+                "label": "PER",
+                "start": 40,
+                "end": 41
+            },
+            {
+                "text": "नेताओं",
+                "label": "ORG",
+                "start": 43,
+                "end": 43
+            },
+            {
+                "text": "सरकार से",
+                "label": "PER",
+                "start": 45,
+                "end": 46
+            }
+        ],
+        "labeled_entities": [
+            {
+                "entity": "कैबिनेट ने",
+                "label": "Protagonist"
+            },
+            {
+                "entity": "महिलाओं",
+                "label": "Protagonist"
+            },
+            {
+                "entity": "रामनाथ",
+                "label": "Neutral"
+            },
+            {
+                "entity": "सहित अन्य",
+                "label": "Neutral"
+            },
+            {
+                "entity": "नेताओं",
+                "label": "Neutral"
+            },
+            {
+                "entity": "सरकार से",
+                "label": "Neutral"
+            }
+        ],
+        "events": [
+            {
+                "subject": "कैबिनेट ने",
+                "action": "मंज़ूरी दे दी",
+                "object": "संविधान (108वां संशोधन) विधेयक, 2008 को",
+                "context": "सोमवार को",
+                "subject_role": "Protagonist",
+                "object_role": "Unknown"
+            },
+            {
+                "subject": "नेताओं",
+                "action": "मांग की थी",
+                "object": "सरकार से",
+                "context": "संसद के वर्तमान विशेष सत्र में यह बिल लाने की",
+                "subject_role": "Neutral",
+                "object_role": "Neutral"
+            }
+        ]
+    },
+    {
+        "text": "कर्नाटक के होयसल साम्राज्य के मंदिरों को यूनेस्को की वर्ल्ड हेरिटेज साइट की सूची में शामिल किए जाने पर प्रधानमंत्री नरेंद्र मोदी ने कहा, \"भारत के लिए और गौरव की बात है।\" उन्होंने कहा, \"होयसल मंदिरों की सुंदरता और जटिल विवरण देश की समृद्ध सांस्कृतिक विरासत व हमारे पूर्वजों की असाधारण शिल्प कौशल का प्रमाण है।\"",
+        "entities": [
+            {
+                "text": "कर्नाटक",
+                "label": "LOC",
+                "start": 0,
+                "end": 0
+            },
+            {
+                "text": "होयसल",
+                "label": "LOC",
+                "start": 2,
+                "end": 2
+            },
+            {
+                "text": "यूनेस्को",
+                "label": "ORG",
+                "start": 7,
+                "end": 7
+            },
+            {
+                "text": "नरेंद्र मोदी",
+                "label": "PER",
+                "start": 20,
+                "end": 21
+            },
+            {
+                "text": "लिए",
+                "label": "LOC",
+                "start": 26,
+                "end": 26
+            },
+            {
+                "text": "विवरण",
+                "label": "LOC",
+                "start": 40,
+                "end": 40
+            }
+        ],
+        "labeled_entities": [
+            {
+                "entity": "होयसल",
+                "label": "Protagonist"
+            },
+            {
+                "entity": "यूनेस्को",
+                "label": "Neutral"
+            },
+            {
+                "entity": "नरेंद्र मोदी",
+                "label": "Protagonist"
+            },
+            {
+                "entity": "कर्नाटक",
+                "label": "Neutral"
+            },
+            {
+                "entity": "लिए",
+                "label": "Neutral"
+            },
+            {
+                "entity": "विवरण",
+                "label": "Neutral"
+            }
+        ],
+        "events": [
+            {
+                "subject": "यूनेस्को",
+                "action": "शामिल किए जाने पर",
+                "object": "होयसल",
+                "context": "वर्ल्ड हेरिटेज साइट की सूची में",
+                "subject_role": "Neutral",
+                "object_role": "Protagonist"
+            },
+            {
+                "subject": "नरेंद्र मोदी",
+                "action": "कहा",
+                "object": "लिए",
+                "context": "\"भारत के लिए और गौरव की बात है।\"",
+                "subject_role": "Protagonist",
+                "object_role": "Neutral"
+            }
+        ]
+    },
+    {
+        "text": "कोटा (राजस्थान) में सोमवार को एनईईटी की तैयारी कर रही मऊ (उत्तर प्रदेश) की छात्रा ने कथित तौर पर सल्फास की गोली खाकर खुदकुशी कर ली। कोचिंग से लौटते वक्त छात्रा को उल्टी होने पर अस्पताल ले जाया गया जहां उसकी मौत हो गई। रिपोर्ट्स के मुताबिक, कोटा में छात्रों की आत्महत्या का यह इस वर्ष का 26वां मामला है।",
+        "entities": [
+            {
+                "text": "कोटा",
+                "label": "LOC",
+                "start": 0,
+                "end": 0
+            },
+            {
+                "text": "में",
+                "label": "LOC",
+                "start": 2,
+                "end": 2
+            },
+            {
+                "text": "तैयारी",
+                "label": "ORG",
+                "start": 7,
+                "end": 7
+            },
+            {
+                "text": "प्रदेश)",
+                "label": "LOC",
+                "start": 12,
+                "end": 12
+            },
+            {
+                "text": "छात्रा ने",
+                "label": "LOC",
+                "start": 14,
+                "end": 15
+            },
+            {
+                "text": "इस",
+                "label": "LOC",
+                "start": 54,
+                "end": 54
+            }
+        ],
+        "labeled_entities": [
+            {
+                "entity": "छात्रा ने",
+                "label": "Protagonist"
+            },
+            {
+                "entity": "कोटा",
+                "label": "Antagonist"
+            },
+            {
+                "entity": "में",
+                "label": "Neutral"
+            },
+            {
+                "entity": "तैयारी",
+                "label": "Neutral"
+            },
+            {
+                "entity": "प्रदेश)",
+                "label": "Neutral"
+            },
+            {
+                "entity": "इस",
+                "label": "Neutral"
+            }
+        ],
+        "events": [
+            {
+                "subject": "छात्रा ने",
+                "action": "खुदकुशी कर ली",
+                "object": "सल्फास की गोली",
+                "context": "कोटा (राजस्थान) में सोमवार को एनईईटी की तैयारी कर रही मऊ (उत्तर प्रदेश) की",
+                "subject_role": "Protagonist",
+                "object_role": "Unknown"
+            },
+            {
+                "subject": "छात्रा ने",
+                "action": "उल्टी होने",
+                "object": "कोचिंग से",
+                "context": "लौटते वक्त",
+                "subject_role": "Protagonist",
+                "object_role": "Unknown"
+            },
+            {
+                "subject": "छात्रा ने",
+                "action": "मौत हो गई",
+                "object": "अस्पताल",
+                "context": "ले जाया गया जहां उसकी",
+                "subject_role": "Protagonist",
+                "object_role": "Unknown"
+            }
+        ]
+    }
+]
