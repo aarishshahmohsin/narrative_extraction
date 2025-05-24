@@ -16,13 +16,16 @@
 \usepackage{setspace}
 \onehalfspacing
 
+% Fix for fancyhdr: increase headheight and adjust topmargin
+\setlength{\headheight}{14.5pt}
+\addtolength{\topmargin}{-2.5pt}
+
 \pagestyle{fancy}
 \fancyhf{}
 \fancyhead[L]{Narrative Extraction}
 \fancyhead[R]{\thepage}
 
 \title{\Huge \bfseries Narrative Extraction from Multilingual Articles \\[1em] \large Minor Project Lab-II (AIC3950)}
-% \author{\normalsize M. Tayyab Ilyas Khan (22AIB288) \and Aarish Shah Mohsin (22AIB126) \\[1em] \textbf{Supervisor:} Dr. Junaid Ali Reshi}
 \author{}
 \date{}
 
@@ -43,7 +46,6 @@
     B.Tech. Artificial Intelligence (VI Semester)\par}
     \vfill
 
-
     {\large \bfseries Submitted by:\par}
     \vspace{0.5em}
     {\large Mohammed Tayyab Ilyas Khan \hfill Roll No: 22AIB288\par}
@@ -56,7 +58,13 @@
 
     \vfill
     {\large \today\par}
+
+    \vspace{3em}
+    \hfill \rule{4cm}{0.4pt}\\
+    \hfill {\small Supervisor's Signature}
 \end{titlepage}
+
+
 
 
 \newpage
