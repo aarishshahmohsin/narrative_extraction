@@ -7,6 +7,7 @@ import textwrap
 import spacy
 from transformers import AutoTokenizer, AutoModelForTokenClassification, pipeline
 import google.generativeai as genai
+from newspaper import Article
 
 genai.configure(api_key="xxxxxx")
 model = genai.GenerativeModel("gemini-2.0-flash")
@@ -22,24 +23,20 @@ def load_ner_pipelines():
     hi_mod = AutoModelForTokenClassification.from_pretrained(
         "ai4bharat/IndicNER")
     pipes["Hindi"] = pipeline(
-        "ner", model=hi_mod, tokenizer=hi_tok, aggregation_strategy="simple"
-    )
+        "ner", model=hi_mod, tokenizer=hi_tok, aggregation_strategy="simple")
 
     ur_tok = AutoTokenizer.from_pretrained("mirfan899/urdu-bert-ner")
     ur_mod = AutoModelForTokenClassification.from_pretrained(
         "mirfan899/urdu-bert-ner")
     pipes["Urdu"] = pipeline(
-        "ner", model=ur_mod, tokenizer=ur_tok, aggregation_strategy="simple"
-    )
+        "ner", model=ur_mod, tokenizer=ur_tok, aggregation_strategy="simple")
+
     ar_tok = AutoTokenizer.from_pretrained(
-        "CAMeL-Lab/bert-base-arabic-camelbert-mix-ner"
-    )
+        "CAMeL-Lab/bert-base-arabic-camelbert-mix-ner")
     ar_mod = AutoModelForTokenClassification.from_pretrained(
-        "CAMeL-Lab/bert-base-arabic-camelbert-mix-ner"
-    )
+        "CAMeL-Lab/bert-base-arabic-camelbert-mix-ner")
     pipes["Arabic"] = pipeline(
-        "ner", model=ar_mod, tokenizer=ar_tok, aggregation_strategy="simple"
-    )
+        "ner", model=ar_mod, tokenizer=ar_tok, aggregation_strategy="simple")
 
     return pipes
 
@@ -154,53 +151,11 @@ Text: {text}
 Entities: {entity_list}
 """
     if lang == "Hindi":
-        return f"""
-आप एक narrative extraction सहायक हैं।
-
-नीचे दिए पाठ से सभी घटनाएँ निकालें:
-- subject (संस्थाओं से चुनें)
-- action (क्रिया)
-- object (संस्थाओं से चुनें)
-- context (वैकल्पिक विवरण)
-
-केवल JSON सूची वापस करें, कोई विवरण नहीं:
-
-समाचार: {text}
-
-संस्थाएं: {entity_list}
-"""
+        return f"""..."""
     if lang == "Urdu":
-        return f"""
-آپ ایک بیانیہ نکالنے والے اسسٹنٹ ہیں۔
-
-مندرجہ ذیل خبر سے تمام مکمل واقعات نکالیں:
-- subject (اداروں میں سے چنیں)
-- action (کیا کیا)
-- object (اداروں میں سے چنیں)
-- context (اختیاری اضافی معلومات)
-
-صرف JSON فہرست واپس کریں، کوئی وضاحت نہیں:
-
-خبر: {text}
-
-ادارے: {entity_list}
-"""
+        return f"""..."""
     if lang == "Arabic":
-        return f"""
-أنت مساعد لاستخراج الأحداث.
-
-من النص التالي استخرج جميع الأحداث الكاملة:
-- subject (من القائمة فقط)
-- action (الفعل)
-- object (من القائمة فقط)
-- context (تفاصيل إضافية إن وجدت)
-
-أجب فقط بمصفوفة JSON، دون شرح:
-
-النص: {text}
-
-الكيانات: {entity_list}
-"""
+        return f"""..."""
     raise ValueError(f"Unsupported language: {lang}")
 
 
@@ -214,8 +169,7 @@ def extract_narrative(text: str, lang: str):
 
     raw_entities = []
     if lang == "English":
-        nlp = ner_pipe
-        doc = nlp(text)
+        doc = ner_pipe(text)
         raw_entities = [(ent.text, ent.label_) for ent in doc.ents]
     else:
         for chunk in chunk_text(text):
@@ -225,7 +179,6 @@ def extract_narrative(text: str, lang: str):
     entities_dict: dict[str, list[str]] = {}
     for word, label in raw_entities:
         entities_dict.setdefault(label, []).append(word)
-    # flatten into list of unique strings
     all_entities = list({w for lst in entities_dict.values() for w in lst})
 
     label_prompt = build_label_prompt(lang, text, all_entities)
@@ -267,13 +220,30 @@ st.set_page_config(page_title="Narrative Extraction Demo", layout="wide")
 st.title("🌐 Multilingual Narrative Extraction")
 
 lang = st.selectbox("Choose language", ["English", "Hindi", "Urdu", "Arabic"])
-text = st.text_area("Paste your article text here:", height=250)
+input_mode = st.radio("Choose input method", ["Paste Text", "Scrape from URL"])
+
+text = ""
+if input_mode == "Paste Text":
+    text = st.text_area("Paste your article text here:", height=250)
+else:
+    url = st.text_input("Enter URL to scrape:")
+    if url:
+        with st.spinner("Scraping article..."):
+            try:
+                article = Article(url)
+                article.download()
+                article.parse()
+                text = article.text
+                st.success("Article scraped successfully!")
+                st.text_area("Scraped Article", value=text, height=250)
+            except Exception as e:
+                st.error(f"Failed to scrape article: {e}")
 
 if st.button("Extract Narrative"):
     if not text.strip():
-        st.warning("Please paste some article text first.")
+        st.warning("Please paste some article text or scrape a URL.")
     else:
-        with st.spinner("Running NER → Role Labeling → Extraction…"):
+        with st.spinner("Running NER → Role Labeling → Narrative Extraction..."):
             entities_dict, labeled, events = extract_narrative(text, lang)
             time.sleep(0.5)
 
